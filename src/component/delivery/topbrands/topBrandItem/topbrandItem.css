@@ -1,0 +1,31 @@
+.topBrand{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.topBrand_item_cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: var(--primary-bg); */
+    /* height: 190px; */
+    width: 148px;
+    height: 150px;
+    background: white;
+    box-shadow: rgb(0 0 0 / 8%) 0px 3px 12px;
+    /* box-shadow: var(--collection-shadow); */
+    overflow: hidden;
+    border-radius: 50%;
+}
+.topBrand_item_cover img{
+    width: 116px;
+    height: 118px;
+}
+.topBrand_item_name{
+    font-size: 22px;
+    font-weight: 600;
+    text-overflow: ellipse;
+    overflow: hidden;
+    margin-top: 6px;
+    color: #363636;
+}

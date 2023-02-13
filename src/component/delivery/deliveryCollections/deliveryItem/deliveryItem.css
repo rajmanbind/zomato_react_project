@@ -1,0 +1,27 @@
+.deliveryItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.delivery_item_cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--primary-bg); */
+  /* height: 190px; */
+  width: 166px;
+  /* box-shadow: var(--collection-shadow); */
+}
+.delivery_item_cover img {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+}
+.delivery_item_title {
+  font-size: 22px;
+  font-weight: 600;
+  text-overflow: ellipse;
+  overflow: hidden;
+  margin-top: 6px;
+  color: #363636;
+}
